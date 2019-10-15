@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demo-sample-4322"
+		},
+		"BlobStorage_connectionString": {
+			"value": ""
+		},
+		"SqlDatabase_connectionString": {
+			"value": ""
+		},
+		"SqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
