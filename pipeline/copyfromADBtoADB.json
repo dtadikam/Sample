@@ -25,7 +25,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SqlTable",
+						"referenceName": "SqlTables",
 						"type": "DatasetReference"
 					}
 				],

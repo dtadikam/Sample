@@ -38,7 +38,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "SqlTable",
+						"referenceName": "SqlTables",
 						"type": "DatasetReference"
 					}
 				]
