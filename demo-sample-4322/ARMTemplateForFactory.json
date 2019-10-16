@@ -53,7 +53,7 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "SqlTable",
+								"referenceName": "SqlTables",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -70,7 +70,7 @@
 				"annotations": []
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/SqlTable')]",
+				"[concat(variables('factoryId'), '/datasets/SqlTables')]",
 				"[concat(variables('factoryId'), '/datasets/SqlTable1')]"
 			]
 		},
@@ -117,7 +117,7 @@
 						],
 						"outputs": [
 							{
-								"referenceName": "SqlTable",
+								"referenceName": "SqlTables",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -128,11 +128,11 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/samplecsvsource')]",
-				"[concat(variables('factoryId'), '/datasets/SqlTable')]"
+				"[concat(variables('factoryId'), '/datasets/SqlTables')]"
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlTable')]",
+			"name": "[concat(parameters('factoryName'), '/SqlTables')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
